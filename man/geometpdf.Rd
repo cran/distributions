@@ -5,7 +5,10 @@
 \title{ Probabilità geometrica }
 
 \description{
-  Calcola una probabilità in corrispondenza di \emph{x}, il numero     della prova in cui si ottiene il primo risultato positivo, per la     distribuzione geometrica discreta con la probabilità di esito     favorevole (\emph{p}) specificata. \eqn{0 \le p \le 1} deve essere     vera. 
+  Calcola una probabilità in corrispondenza di \emph{x}, il numero della prova
+  in cui si ottiene il primo risultato positivo, per la distribuzione geometrica
+  discreta con la probabilità di esito favorevole (\emph{p}) specificata. \eqn{0 \le p \le 1}
+  deve essere vera.
 }
 
 \usage{
@@ -22,9 +25,8 @@ geometpdf(p, x)
 \author{ Fabio Frascati }
 
 \note{ 
-  La funzione di densità della probabilità(pdf)  è: \deqn{p(x) = p (1 - p)^{x - 1}}{p(x) = p (1-p)^(x - 1)}
-con \eqn{x = 1, 2, 3, \ldots}
-
+  La funzione di densità della probabilità(pdf) è: \deqn{p(x) = p (1 - p)^{x - 1}}{p(x) = p (1-p)^(x - 1)}
+  con \eqn{x = 1, 2, 3, \ldots}
 }
 
 \seealso{ \code{\link{geometcdf}} }
